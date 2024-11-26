@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Kartik Rai (Underrated Coder)" />
+    <meta property="og:description" content="Portfolio Website of Kartik Rai" />
+    <meta property="og:image"
+        content=">
+    <meta property="og:url" content="https://raikartik186.github.io/Portfolio-Website/" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <title> Shailendra</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Shailendra kr</span><br />from India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------About Section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        development!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br />JavaScript, Java, Python, TypeScript, PHP, SQL</li>
+                            <li><span>FRONTEND TECHNOLOGIES</span><br />AngularJS, ReactJS, JavaScript,
+                                jQuery, Bootstrap, HTML, CSS</li>
+                            <li><span>BACKEND TECHNOLOGIES</span><br />Javascript, NodeJS, ExpressJS, PHP, Java,
+                                API</li>
+                            <li><span>DATABASE</span><br />MySQL, MongoDB, Postgres,</li>
+                            <li><span>DEVELOPER TOOLS</span><br />Git, GitHub, Postman</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sriggle Tech Pvt. Ltd.</span><br />Full Stack Developer (January 2024 - Present)
+                            </li>
+                            <li><span>NEC India Pvt. Ltd.</span><br />Software Engineer (October 2022 - January 2024)
+                            </li>
+                            </u>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br />Bhagalpur College of Engineering, Bhagalpur (BEU) <br> 2020-2024
+                            </li>
+                            <li><span>SENIOR SECONDARY</span><br />D.T.E.A. Sr. Secondary School (CBSE) <br> 2016-2018
+                            </li>
+                            <li><span>SECONDARY</span><br />Paramount International School (CBSE) <br> 2014-2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+
+</body>
+
+</html>
